@@ -1,0 +1,40 @@
+.hero_btn {
+    background: rgb(0, 92, 49);  
+    color:rgb(255, 255, 255);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: .9rem;
+    padding: 7px 25px;
+    text-decoration: none;
+}
+.hero_btn a{
+
+color:rgb(255, 255, 255); 
+
+}
+.hero_btn :hover a{
+    color:rgb(255, 255, 0) !important;
+    }
+.hero_title span{
+    color: rgb(0, 92, 49)
+}
+.hero_title{
+    font-weight: 600;
+}
+.hero_img{
+width: 400px;
+height: 400px;
+border-radius: 10px;
+background:rgb(0, 92, 49);
+margin-left: auto;
+
+}
+.hero_section{
+    padding-top: 250px;
+    padding-bottom: 300px;
+}
+.hero_content p{
+ line-height: 30px;  
+ font-weight: 300; 
+}
