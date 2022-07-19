@@ -2,6 +2,7 @@
     background:  rgb(0, 92, 49);
     border-radius: 10px;
     color: #fff;
+    padding: 40px;
 }
 .skills_wrapper img{
     width: 50px;
@@ -10,7 +11,7 @@
 
 }
 .skill_title{
-  padding: 20px;
+  padding: 50px;
     border-radius:10px;
 
     text-align: center;
