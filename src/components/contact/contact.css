@@ -1,0 +1,27 @@
+.single_info-box {
+    background: #57a178;
+    padding: 20px;
+    border-radius: 5px;
+    border-bottom: 1px solid rgb(0, 61, 33);
+    margin-bottom: 25px;
+}
+
+.single_info-box p {
+    font-weight: 300;
+    margin-top: 10px;
+    font-size: 0.9rem;
+    margin-bottom: 0;
+}
+
+.single_info-box h6 {
+    font-size: 1.1rem;
+}
+
+.contact_title {
+    color: #fff;
+    padding-bottom: 50px;
+}
+
+.contact_title span {
+    color: #6aab87;
+}

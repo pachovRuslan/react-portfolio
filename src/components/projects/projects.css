@@ -3,7 +3,7 @@ section {
 }
 
 .portfolio_title span {
-    color: rgb(0, 92, 49);
+    color: #57a178;
     font-weight: 600;
 }
 
@@ -16,10 +16,11 @@ section {
 }
 
 .portfolio_wrapper {
-    background: rgb(0, 92, 49);
+    background: #57a178;
     border-radius: 10px;
     padding: 40px;
 }
 .portfolio_title{
     padding-top: 70px;
+    color: #fff;
 }

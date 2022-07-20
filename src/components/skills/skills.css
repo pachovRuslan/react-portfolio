@@ -1,23 +1,25 @@
-.skills_wrapper{
-    background:  rgb(0, 92, 49);
+.skills_wrapper {
+    background: #57a178;
     border-radius: 10px;
     color: #fff;
     padding: 40px;
 }
-.skills_wrapper img{
+
+.skills_wrapper img {
     width: 50px;
 }
-.skill_data{
 
-}
-.skill_title{
-  padding: 50px;
-    border-radius:10px;
+.skill_data {}
+
+.skill_title {
+    padding: 50px;
+    border-radius: 10px;
 
     text-align: center;
 
 }
-.skill_title h4{
-    color:black;
+
+.skill_title h4 {
+    color: black;
     opacity: 75%;
 }

@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from 'react';
 import { init } from 'ityped';
 import './projects.css';
-import { Container, Row, Col } from 'reactstrap';
+import { Container, } from 'reactstrap';
 
 function Projects() {
   const projects = [
@@ -48,7 +48,7 @@ function Projects() {
               <div className="portfolio_data col-6">
                 <div className="portfolio_title">
                   <h4>{item.title}</h4>
-                  <span>{item.discription}</span>
+                  <p>{item.discription}</p>
                   <div className="portfolio_image align-items-end">
                     <img src={item.image} alt="logo" />
                   </div>
