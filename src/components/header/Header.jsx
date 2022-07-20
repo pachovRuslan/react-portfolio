@@ -22,6 +22,7 @@ const navLinks = [
 ];
 
 function Header() {
+
   const headerRef = useRef(null);
   useEffect(() => {
     window.addEventListener('scroll', () => {
@@ -35,6 +36,7 @@ function Header() {
       window.removeEventListener('scroll');
     };
   }, []);
+  
   return (
     <header className="header" ref={headerRef}>
       <Container>

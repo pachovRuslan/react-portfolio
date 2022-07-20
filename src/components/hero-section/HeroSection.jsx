@@ -3,7 +3,9 @@ import { Container, Row, Col } from 'reactstrap';
 import { init } from 'ityped';
 import './hero-section.css';
 import hero from '../../assests/img/hero.png'
+
 function HeroSection() {
+
   const textRef = useRef()
   useEffect(()=> {
     init(textRef.current, {
@@ -15,6 +17,7 @@ function HeroSection() {
       ]
     })
   }, [])
+
   return (
     <section className='hero_section' id='home'>
       <Container>
@@ -27,11 +30,7 @@ function HeroSection() {
                 I'm <span ref={textRef}></span>
                 </h2>
               <p className='mb-3'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis sapiente reprehenderit, temporibus praesentium omnis, beatae, eum possimus rerum consequatur 
-                velit qui alias ut dolore! Minus, voluptate. Laudantium hic necessitatibus dolores.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis sapiente reprehenderit, temporibus praesentium omnis, beatae, eum possimus rerum consequatur 
-                velit qui alias ut dolore! Minus, voluptate. Laudantium hic necessitatibus dolores.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, eum!</p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque dignissimos voluptatum dicta natus ut ipsam? Quod facere possimus, earum dolore architecto repellendus ab laborum distinctio? Dolor eligendi maiores nesciunt non.</p>
             <div className=" mt-5 hero_btns d-flex align-items-center gap-4">
                 <button className="hero_btn"><a href="/#">Hire Me</a></button>
                 <button className="hero_btn">Contact</button>

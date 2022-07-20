@@ -1,9 +1,11 @@
-import React, { useRef, useEffect } from 'react'
+import React, { useRef, useEffect } from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import { init } from 'ityped';
 import Form from '../form/Form';
-import './contact.css'
+import './contact.css';
+
 function Contact() {
+  
   const textRef = useRef();
   useEffect(() => {
     init(textRef.current, {
@@ -12,17 +14,17 @@ function Contact() {
       strings: ['contacts'],
     });
   }, []);
-  return (
-    <section id='contact'>
-      <Container>
 
+  return (
+    <section id="contact">
+      <Container>
         <Row>
-          <Col lg='12' className='mb-5'>
-            <h2 className='contact_title'>
+          <Col lg="12" className="mb-5">
+            <h2 className="contact_title">
               My <span ref={textRef}></span>
             </h2>
           </Col>
-          <Col lg='6' md='6'>
+          <Col lg="6" md="6">
             <div className="contact_info-container d-grid align-items-center gap-2">
               <div className="single_info-box w-50">
                 <h6>Address</h6>
@@ -36,10 +38,9 @@ function Contact() {
                 <h6>Email</h6>
                 <p>cao-macao@mail.ru</p>
               </div>
-
             </div>
           </Col>
-          <Col lg='6' md='6'>
+          <Col lg="6" md="6">
             <Form />
           </Col>
           <div className="social_links">
@@ -73,7 +74,7 @@ function Contact() {
         </Row>
       </Container>
     </section>
-  )
+  );
 }
 
-export default Contact
+export default Contact;

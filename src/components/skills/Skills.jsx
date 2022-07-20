@@ -1,12 +1,13 @@
 import React, { useState, useRef, useEffect } from 'react';
-import './about.css';
 import { Container, Row, Col } from 'reactstrap';
+import { init } from 'ityped';
+import './skills.css';
 import HardSkills from './HardSkills';
 import SoftSkills from './SoftSkills';
-import { init } from 'ityped';
+
 
 function Skills() {
-  const [aboutFilter, setAboutFilter] = useState('HARDSKILLS');
+  const [skillsFilter, setSkillsFilter] = useState('HARDSKILLS');
   const textRef = useRef()
   useEffect(()=> {
     init(textRef.current, {
@@ -27,22 +28,22 @@ function Skills() {
             </div>
           </Col>
           <Col lg="4" md="3">
-            <div className="about_btns d-flex flex-column align-items-center">
+            <div className="skills_btns d-flex flex-column align-items-center">
               <button
-                className="about_btn about_btn-active"
-                onClick={() => setAboutFilter('HARDSKILLS')}>
+                className="skills_btn skills_btn-active"
+                onClick={() => setSkillsFilter('HARDSKILLS')}>
                 {' '}
                 Hard skills
               </button>
-              <button className="about_btn" onClick={() => setAboutFilter('SOFTSKILLS')}>
+              <button className="skills_btn" onClick={() => setSkillsFilter('SOFTSKILLS')}>
                 {' '}
                 Soft skills
               </button>
             </div>
           </Col>
           <Col lg="8" md="9">
-            {aboutFilter === 'HARDSKILLS' && <HardSkills />}
-            {aboutFilter === 'SOFTSKILLS' && <SoftSkills/>}
+            {skillsFilter === 'HARDSKILLS' && <HardSkills />}
+            {skillsFilter === 'SOFTSKILLS' && <SoftSkills/>}
            
           </Col>
         </Row>
