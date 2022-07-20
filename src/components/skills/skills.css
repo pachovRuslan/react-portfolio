@@ -1,5 +1,5 @@
 .skills_btns {
-    background: #57a178;
+    background: #18482d;
     border-radius: 10px;
 
 }
@@ -26,7 +26,7 @@
 }
 
 .skills_content_wrapper {
-    background: #57a178;
+    background: #18482d;
     padding: 30px;
     border-radius: 10px;
 }
@@ -56,7 +56,7 @@
 }
 
 .about_img {
-    background: #87ebb4;
+    background: #18482d;
     border-radius: 10px;
     height: 138x;
 }
@@ -76,7 +76,7 @@ section {
 }
 
 .skills_wrapper {
-    background: #57a178;
+    background: #18482d;
     border-radius: 10px;
     color: #fff;
     padding: 40px;
@@ -97,6 +97,6 @@ section {
 
 .skill_title h4 {
     color: black;
-    opacity: 75%;
+    opacity: 90%;
 }
 

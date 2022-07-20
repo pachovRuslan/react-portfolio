@@ -25,7 +25,7 @@ function HeroSection() {
           <Col lg="6" md="6">
             <div className="hero_content">
               <p>Welcome to my world!</p>
-              <h5 className='mb-4'>Hi</h5>
+             
               <h2 className='hero_title mb-4'>
                 I'm <span ref={textRef}></span>
                 </h2>

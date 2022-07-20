@@ -36,7 +36,7 @@ function Header() {
       window.removeEventListener('scroll');
     };
   }, []);
-  
+
   return (
     <header className="header" ref={headerRef}>
       <Container>
@@ -54,7 +54,7 @@ function Header() {
             </ul>
           </div>
           <div className="nav_right">
-            <button className="header_btn">Let's Talk</button>
+            <div className="header_btn">Let's Talk</div>
             <span className="mobile_menu">
               <i class="ri-menu-5-line"></i>
             </span>
