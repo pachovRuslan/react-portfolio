@@ -50,7 +50,7 @@ const Portfolio = () => {
                         </div>
                     </Col>
 
-                    {portfolioData.map((item, index) => <Col lg='4' md='6' sm='6'>
+                    {portfolioData.map((item, index) => <Col key={index} lg='4' md='6' sm='6'>
                         <div className="portfolio_card">
                             <div className="portfolio_img">
                                 <img src={item.imgUrl} alt="portfolio" className='w-100' />

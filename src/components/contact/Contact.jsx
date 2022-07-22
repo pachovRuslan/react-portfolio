@@ -47,27 +47,27 @@ function Contact() {
             <h6 className="mb-3">Connect with me:</h6>
             <span>
               <a href="/#">
-                <i class="ri-telegram-line"></i>
+                <i className="ri-telegram-line"></i>
               </a>
             </span>
             <span>
               <a href="/#">
-                <i class="ri-linkedin-fill"></i>
+                <i className="ri-linkedin-fill"></i>
               </a>
             </span>
             <span>
               <a href="/#">
-                <i class="ri-facebook-fill"></i>
+                <i className="ri-facebook-fill"></i>
               </a>
             </span>
             <span>
               <a href="/#">
-                <i class="ri-mail-line"></i>
+                <i className="ri-mail-line"></i>
               </a>
             </span>
             <span>
               <a href="/#">
-                <i class="ri-github-line"></i>
+                <i className="ri-github-line"></i>
               </a>
             </span>
           </div>

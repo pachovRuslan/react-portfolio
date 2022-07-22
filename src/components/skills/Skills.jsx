@@ -30,12 +30,13 @@ function Skills() {
           <Col lg="4" md="3">
             <div className="skills_btns d-flex flex-column align-items-center">
               <button
-                className="skills_btn skills_btn-active"
+                className={`skills_btn ${ skillsFilter === 'HARDSKILLS' ? "skills_btn-active" : ''}`}
                 onClick={() => setSkillsFilter('HARDSKILLS')}>
                 {' '}
                 Hard skills
               </button>
-              <button className="skills_btn" onClick={() => setSkillsFilter('SOFTSKILLS')}>
+              <button className={`skills_btn ${ skillsFilter === 'SOFTSKILLS' ? "skills_btn-active" : ''}`}
+               onClick={() => setSkillsFilter('SOFTSKILLS')}>
                 {' '}
                 Soft skills
               </button>

@@ -4,9 +4,9 @@ import './footer.css'
 
 function Footer() {
   return (
-   <footer>
+   <footer className='pb-4'>
 <Container className='text-center footer'>
-    <p>Copyright 2022, Developed my Pachkov Ruslan</p>
+    <p>Copyright 2022, Developed by Pachkov Ruslan</p>
 </Container>
    </footer>
   )

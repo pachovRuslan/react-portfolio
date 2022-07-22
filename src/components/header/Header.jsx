@@ -24,6 +24,7 @@ const navLinks = [
 function Header() {
 
   const headerRef = useRef(null);
+  const menuRef = useRef(null);
   useEffect(() => {
     window.addEventListener('scroll', () => {
       if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
@@ -36,15 +37,16 @@ function Header() {
       window.removeEventListener('scroll');
     };
   }, []);
+  const menuToggle = () => menuRef.current.classList.toggle('menu_active')
 
   return (
     <header className="header" ref={headerRef}>
       <Container>
         <div className="navigation d-flex align-items-center justify-content-between ">
           <div className="logo">
-            <h5>mihib</h5>
+            <h5>Ruslan</h5>
           </div>
-          <div className="nav_menu">
+          <div className="nav_menu" ref={menuRef} onClick={menuToggle}>
             <ul className="nav_list">
               {navLinks.map((item, index) => (
                 <li className="nav_item" key={index}>
@@ -56,7 +58,7 @@ function Header() {
           <div className="nav_right">
             <div className="header_btn">Let's Talk</div>
             <span className="mobile_menu">
-              <i class="ri-menu-5-line"></i>
+              <i className="ri-menu-5-line" onClick={menuToggle}></i>
             </span>
           </div>
         </div>

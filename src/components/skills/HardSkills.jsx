@@ -34,7 +34,7 @@ function Skills() {
         <div className="skills_wrapper d-flex gap-5">
             <div className="soft_skill row align-items-start">
                { hard_skills.map((item, index)=>(
-                    <div className="skill_data col-6">
+                    <div className="skill_data col-6" key={index}>
                         <div className="skill_title">
                             <h4>{item.title}</h4>
                             <span>{item.discription}</span>
