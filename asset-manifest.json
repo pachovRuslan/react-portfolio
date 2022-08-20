@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.6639946e.css",
-    "main.js": "/react-portfolio/static/js/main.24ed0a13.js",
+    "main.css": "/react-portfolio/static/css/main.9a6f3529.css",
+    "main.js": "/react-portfolio/static/js/main.69748392.js",
     "static/media/remixicon.svg?t=1590207869815": "/react-portfolio/static/media/remixicon.9cedd2150922ead84869.svg",
-    "static/media/sneaker.png": "/react-portfolio/static/media/sneaker.a0c6a959136fed16c895.png",
+    "static/media/sneaker.png": "/react-portfolio/static/media/sneaker.069890507c4039873d9b.png",
     "static/media/remixicon.eot?t=1590207869815": "/react-portfolio/static/media/remixicon.5cb99e6cba5a4619063f.eot",
     "static/media/remixicon.ttf?t=1590207869815": "/react-portfolio/static/media/remixicon.f2616f597cf98f38d234.ttf",
     "static/media/pizza.png": "/react-portfolio/static/media/pizza.fb6d13e185033dd968dc.png",
     "static/media/hero.png": "/react-portfolio/static/media/hero.336b4783f6a4d6f6e5f4.png",
     "static/media/remixicon.woff?t=1590207869815": "/react-portfolio/static/media/remixicon.8d09fa11700ed63cf96e.woff",
-    "static/media/sn.png": "/react-portfolio/static/media/sn.4ca3f3c0750ab5114485.png",
     "static/media/remixicon.woff2?t=1590207869815": "/react-portfolio/static/media/remixicon.90668f6f9b3c2c18a090.woff2",
+    "static/media/6in1.png": "/react-portfolio/static/media/6in1.4c3d47df5c837de2c824.png",
     "index.html": "/react-portfolio/index.html",
-    "main.6639946e.css.map": "/react-portfolio/static/css/main.6639946e.css.map",
-    "main.24ed0a13.js.map": "/react-portfolio/static/js/main.24ed0a13.js.map"
+    "main.9a6f3529.css.map": "/react-portfolio/static/css/main.9a6f3529.css.map",
+    "main.69748392.js.map": "/react-portfolio/static/js/main.69748392.js.map"
   },
   "entrypoints": [
-    "static/css/main.6639946e.css",
-    "static/js/main.24ed0a13.js"
+    "static/css/main.9a6f3529.css",
+    "static/js/main.69748392.js"
   ]
 }
