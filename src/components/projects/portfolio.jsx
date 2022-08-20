@@ -2,7 +2,7 @@ import React, { useRef, useEffect } from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import { init } from 'ityped';
 import img1 from '../../assests/img/pizza.png';
-import img2 from '../../assests/img/sn.png';
+import img2 from '../../assests/img/6in1.png';
 import img3 from '../../assests/img/sneaker.png';
 import './portfolio.css'
 
@@ -10,20 +10,20 @@ const portfolioData = [
     {
         imgUrl: img1,
         title: 'React Pizza',
-        urlPrev: '#',
-        urlGit: '#'
+        urlPrev: 'https://pachovruslan.github.io/react-pizza-v2/',
+        urlGit: 'https://github.com/pachovRuslan/react-pizza-v2'
     },
     {
         imgUrl: img2,
-        title: 'Social Network',
-        urlPrev: '#',
-        urlGit: '#'
+        title: '6in1',
+        urlPrev: 'https://pachovruslan.github.io/6in1/',
+        urlGit: 'https://github.com/pachovRuslan/6in1'
     },
     {
         imgUrl: img3,
         title: 'React Sneker Shop',
-        urlPrev: '#',
-        urlGit: '#'
+        urlPrev: 'https://pachovruslan.github.io/sneaker-shop/',
+        urlGit: 'https://github.com/pachovRuslan/sneakerShop'
     },
 
 ]
