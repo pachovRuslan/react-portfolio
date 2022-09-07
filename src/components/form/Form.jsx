@@ -1,32 +1,52 @@
-import React, {useState} from 'react';
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser'
+import Swal from 'sweetalert2';
 import './form.css';
 
-function Form() {
-  const [enteredName, setEnteredName] = useState('')
-  const [enteredEmail, setEnteredEmail] = useState('')
-  const [enteredMessage, setEnteredMessage] = useState('')
+function Forms() {
+  const form = useRef();
+  const SERVICE_ID = "service_a3pjtlk";
+  const TEMPLATE_ID = "template_p22zvfc";
+  const PUBLIC_KEY = "yINXHbCbyJM7_tD-G";
+  const sendEmail = (e) => {
+    e.preventDefault();
 
-  const submitHandler = (e) => {
-    e.preventDefault()
-    console.log('sublimited')
-  }
+    emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, form.current, PUBLIC_KEY)
+    .then((result) => {
+      console.log(result.text);
+      Swal.fire({
+        icon: 'success',
+        title: 'Message Sent Successfully'
+      })
+    }, (error) => {
+      console.log(error.text);
+      Swal.fire({
+        icon: 'error',
+        title: 'Ooops, something went wrong',
+        text: error.text,
+      })
+    });
+  e.target.reset()
+  };
 
   return (
-    <form className="form" onSubmit={submitHandler}>
-      <div className="form_input">
-        <input type="text" placeholder="Your Name" value={enteredName} onChange={e=>setEnteredName(e.target.value)}/>
+    <form ref={form} onSubmit={sendEmail} className="form" >
+          <div className="form_input">
+        <input type="text" name="user_name" placeholder="Your Name" />
       </div>
       <div className="form_input">
-        <input type="email" placeholder="Your Email" value={enteredEmail} onChange={e=>setEnteredEmail(e.target.value)} />
+        <input type="email" name="user_email" placeholder="Your Email"  />
       </div>
       <div className="form_input">
-        <textarea row="10" placeholder="Write Message" value={enteredMessage} onChange={e=>setEnteredMessage(e.target.value)}></textarea>
+        <input row="10" placeholder="Write Message" name="message"></input>
       </div>
-      <button className="submit_btn" type="submit">
+      <button className="submit_btn" type="submit" value="Send">
         submit
       </button>
+     
     </form>
   );
+  
 }
 
-export default Form;
+export default Forms;

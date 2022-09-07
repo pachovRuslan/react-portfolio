@@ -46,27 +46,23 @@ function Contact() {
           <div className="social_links">
             <h6 className="mb-3">Connect with me:</h6>
             <span>
-              <a href="/#">
+              <a href="https://t.me/ruslan_1613">
                 <i className="ri-telegram-line"></i>
               </a>
             </span>
             <span>
-              <a href="/#">
+              <a href="https://www.linkedin.com/in/%D1%80%D1%83%D1%81%D0%BB%D0%B0%D0%BD-%D0%BF%D0%B0%D1%87%D0%BA%D0%BE%D0%B2-08953615a/">
                 <i className="ri-linkedin-fill"></i>
               </a>
             </span>
             <span>
-              <a href="/#">
+              <a href="https://www.facebook.com/profile.php?id=100001047538637">
                 <i className="ri-facebook-fill"></i>
               </a>
             </span>
+        
             <span>
-              <a href="/#">
-                <i className="ri-mail-line"></i>
-              </a>
-            </span>
-            <span>
-              <a href="/#">
+              <a href="https://github.com/pachovRuslan?tab=repositories">
                 <i className="ri-github-line"></i>
               </a>
             </span>

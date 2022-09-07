@@ -1,33 +1,38 @@
 import React from 'react'
 import './skills.css'
-
+import react from '../../assests/img/react.png';
+import redux from '../../assests/img/redux.png';
+import ts from '../../assests/img/ts.png';
+import html from '../../assests/img/html.png';
+import css from '../../assests/img/css.png';
+import js from '../../assests/img/js.png';
 function Skills() {
     const hard_skills = [
         {
             title: 'React',
             discription:'class & function components, life cycle methods, HOC, HOOK, axios, ref',
-            image: '/react.png'},
+            image: react},
         {
             title: 'Redux',
             discription: 'combineReducers, reducer, dispatch, action, provider, connect, react-router-dom, redux-thunk;',
-            image: '/redux.png'},
+            image: redux},
         {
             title: 'TypeScript',
             discription: 'typing props, creating Interfaces/Types, generics;',
-            image: '/ts.png'},
+            image: ts},
         {
             title:'HTML',
             discription: 'tags, atributes, forms',
-            image: '/html.png'},
+            image: html},
         {
             title:'CSS',
             discription: 'flex, grid, media queries, animation',
-            image: '/css.png'},
+            image: css},
             
         {
             title:'JS',
             discription: 'es5 / es6; Arrow functions, array methods, spread, destructuring, promise, pure function, localStorage;',
-            image: '/js.png'},
+            image: js},
     ]
  
     return (

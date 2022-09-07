@@ -56,7 +56,7 @@ function Header() {
             </ul>
           </div>
           <div className="nav_right">
-            <div className="header_btn">Let's Talk</div>
+            {/* <div className="header_btn">Let's Talk</div> */}
             <span className="mobile_menu">
               <i className="ri-menu-5-line" onClick={menuToggle}></i>
             </span>
