@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.9a6f3529.css",
-    "main.js": "/react-portfolio/static/js/main.5dee35aa.js",
+    "main.js": "/react-portfolio/static/js/main.75e15cfb.js",
     "static/media/remixicon.svg?t=1590207869815": "/react-portfolio/static/media/remixicon.9cedd2150922ead84869.svg",
     "static/media/sneaker.png": "/react-portfolio/static/media/sneaker.069890507c4039873d9b.png",
     "static/media/remixicon.eot?t=1590207869815": "/react-portfolio/static/media/remixicon.5cb99e6cba5a4619063f.eot",
@@ -18,10 +18,10 @@
     "static/media/redux.png": "/react-portfolio/static/media/redux.55687a2b76ddabd2bd1d.png",
     "index.html": "/react-portfolio/index.html",
     "main.9a6f3529.css.map": "/react-portfolio/static/css/main.9a6f3529.css.map",
-    "main.5dee35aa.js.map": "/react-portfolio/static/js/main.5dee35aa.js.map"
+    "main.75e15cfb.js.map": "/react-portfolio/static/js/main.75e15cfb.js.map"
   },
   "entrypoints": [
     "static/css/main.9a6f3529.css",
-    "static/js/main.5dee35aa.js"
+    "static/js/main.75e15cfb.js"
   ]
 }
